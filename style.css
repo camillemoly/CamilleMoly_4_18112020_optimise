@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: #FFF;
+    max-width: 1440px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -22,22 +23,30 @@ a:focus, .submit:focus{
     color: #000000!important;
 }
 
-.fs-bigger {
-    font-size: 1.2rem!important;
+.fs-medium {
+    font-size: 1.3rem!important;
     font-weight: bold;
 }
 
-.citation {
+.fs-large {
+    font-size: 1.8rem!important;
+}
+
+.quote {
     font-weight: bold;
     color: black;
 }
 
-.auteur {
+.author {
     color: #030387;
 }
 
 .infos {
     margin-top: 10px;
+}
+
+.first-logo {
+    margin: 5px 0 0 20px!important;
 }
 /* -------------------------- */
 
@@ -719,8 +728,7 @@ p {
 }
 
 .cta-hero {
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
