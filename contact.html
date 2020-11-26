@@ -56,11 +56,11 @@
 				</div>
 			</section>
 			<!-- bloc-7 -->
-			<section class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="bloc bgc-white l-bloc" id="bloc-7" role="form">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1">
 								<div class="form-group">
 									<label for="name">Nom</label>
 									<input id="name" class="form-control" required />
@@ -71,7 +71,7 @@
 								</div>
 								<div class="form-group">
 									<label for="knowing">Comment nous avez-vous connu ?</label>
-									<input id="knowing" class="form-control" type="email" required />
+									<input id="knowing" class="form-control" required />
 								</div>
 								<div class="form-group">
 									<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
@@ -81,7 +81,7 @@
 							</form>
 						</div>
 						<div class="col-sm-6">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555488!2d4.827978615473473!3d45.76952782103914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1605879114430!5m2!1sfr!2sfr" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" role="application" aria-label="localisation sur Google Maps"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555488!2d4.827978615473473!3d45.76952782103914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1605879114430!5m2!1sfr!2sfr" class="maps" allowfullscreen="" aria-hidden="false" tabindex="0" role="application" aria-label="localisation sur Google Maps"></iframe>
 							<div class="infos">
 								<p><a href="mailto:contact@lachouetteagence.com" class="fs-medium">contact@lachouetteagence.com</a></p>
 								<p class="fs-medium">2 place Sathonay 69001 Lyon</p>
@@ -90,12 +90,13 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+			<!-- ScrollToTop Button -->
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" role="button">
+				<span class="fa fa-chevron-up" title="retourner vers le haut de la page"></span>
+			</a>
 		</main>
-		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
-			<span class="fa fa-chevron-up" aria-label="retourner vers le haut de la page"></span>
-		</a>
+		
 		<!-- Footer - bloc-8 -->
 		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
@@ -105,22 +106,22 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://twitter.com"><span class="fa fa-twitter icon-md tc-black" aria-label="logo Twitter"></span></a>
+									<a class="social" href="https://twitter.com"><span class="fa fa-twitter icon-md tc-black" title="logo Twitter"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://facebook.com"><span class="fa fa-facebook icon-md tc-black" aria-label="logo Facebook"></span></a>
+									<a class="social" href="https://facebook.com"><span class="fa fa-facebook icon-md tc-black" title="logo Facebook"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md tc-black" aria-label="logo Dribbble"></span></a>
+									<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md tc-black" title="logo Dribbble"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://instagram.com"><span class="fa fa-instagram icon-md tc-black" aria-label="logo Instagram"></span></a>
+									<a class="social" href="https://instagram.com"><span class="fa fa-instagram icon-md tc-black" title="logo Instagram"></span></a>
 								</div>
 							</div>
 						</div>
