@@ -1,7 +1,0 @@
-User-Agent: *
-Disallow: 
-
-User-Agent: Googlebot-Image
-Allow: /img/
-
-Sitemap: https://camillemoly.github.io/CamilleMoly_4_18112020_optimise/sitemap.xml
